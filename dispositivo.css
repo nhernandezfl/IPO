@@ -1,0 +1,132 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0; 
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Cabecera y menú principal */
+
+body, main, section {
+    margin-left: 20px; 
+}
+
+header {
+    background-color: hsl(212, 72%, 59%);
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+#principal {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;     
+}
+
+.logo {
+    width: 40px;             
+    height: auto;
+    margin-right: 10px;      
+}
+
+.title {
+    font-size: 2em;
+    margin: 0;
+}
+
+.subtitle {
+    font-size: 3em;
+    margin: 5px 0 15px;
+    color: white;
+}
+
+.nav-links ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-links ul li a {
+    text-decoration: underline;
+    color: white;
+    font-size: 0.9em;
+}
+
+.nav-links ul li a:hover {
+    text-decoration: none;
+}
+
+section img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+blockquote {
+    background-color: #e0f7fa; 
+    border-left: 5px solid #4a90e2;
+    margin: 20px 0;
+    padding: 20px;
+    font-style: italic;
+    color: #555;
+}
+
+dl {
+    background-color: #c4ecff; 
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+/* Sección de productos */
+
+.productos-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.producto {
+    background-color: #e0e0e0;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.producto h3 {
+    color: #4a90e2;
+}
+
+/* Pie de página - Estilos comunes a todas las páginas */
+
+footer {
+    text-align: center;
+    background-color: #4a90e2;
+    padding: 10px;
+    color: white;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+
